@@ -1,0 +1,148 @@
+img {
+	width: 100%;
+	height: auto;
+	max-height: 75em;
+}
+
+h1,h2 {
+	margin: 0;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: "Georgia","Cambria","Times New Roman";
+	line-height: 1.26;
+}
+
+body {
+	max-width: 1093px;
+	margin: auto;
+	background-color: #FEFEFE;
+}
+
+.main {
+	padding: 0;
+}
+
+.main-content {
+	padding: 4em;
+}
+
+.main-content-head {
+	margin-bottom: 1.5em;
+}
+
+.main-content-head-topic {
+	width: 9.5em;
+	margin-bottom: .5em;
+	padding: .25em;
+	color: #FFFFFF;
+	background-color: #2CA8B0;
+	font-size: 1em;
+	font-weight: 300;
+	text-align: center;
+}
+
+.main-content-head-title {
+	text-align: left;
+}
+
+h2.main-content-head-title {
+	font-variant: small-caps;
+	font-family: 'lucida';
+}
+
+.main-content-body {
+	margin-bottom: 1.5em;
+}
+
+.main-content-body-primary {
+	margin-bottom: .25em;
+}
+
+h2.main-content-body-primary {
+	font-weight: 700;
+}
+
+h2.main-content-body-secondary {
+	font-size: 1.2em;
+}
+
+.main-content-statistics {
+/*	padding: 0;*/
+	margin-bottom: 1.5em;
+}
+
+.main-content-statistics-head {
+	padding: 2em;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #DDDDDD;
+}
+
+.main-content-statistics-info {
+	height: auto;
+	font-size: 1.25em;
+	font-weight: 600;
+}
+
+.main-content-statistics-block-unit {
+	padding: 2em;
+}
+
+.main-content-statistics-number {
+	padding-bottom: .1em;
+	font-size: 3em;
+	font-weight: 600;
+	color: #2CA8B0;
+}
+
+.main-content-statistics-description {
+	font-size: 1em;
+}
+
+.main-content-statistics-footnotes {
+	padding: 0;
+	color: #DDDDDD;
+	font-size: .5em;
+}
+
+.main-contact {
+	width: 100%;
+	padding: 2.5em 2em;
+	font-size: .75em;
+	text-align: center;
+	background-color: #2CA8B0;
+	color: #FFFFFF;
+
+}
+
+a {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+@media (max-width: 991px){
+	img {
+		padding: 2em 2em 0 2em;
+	}
+	.main-content {
+		padding: 2em;
+	}
+	.main-content-statistics-head {
+		border-right-style: none;
+	}
+}
+
+@media (max-width: 767px){
+	h2 {
+		line-height: 1.2;
+	}
+	.main-content-statistics-description {
+		font-size: 2.5em;
+	}
+	.main-content-statistics-block {
+		margin: auto;
+		padding: 0;
+	}
+}
